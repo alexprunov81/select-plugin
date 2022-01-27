@@ -39,6 +39,7 @@ export class Select {
     #render() {
         const {placeholder, data} = this.options
         this.$el.classList.add('select')
+        this.$el.style.width=this.options.styles.width
         this.$el.innerHTML = getTemplate(data, placeholder, this.selectedId)
     }
 
