@@ -1,0 +1,30 @@
+{
+  "name": "Select plugin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve --mode=development",
+    "build": "webpack --mode=production"
+  },
+  "author": "Alexandr Prunov",
+  "private": true,
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^6.5.1",
+    "eslint": "^8.7.0",
+    "eslint-webpack-plugin": "^3.1.1",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.5.2",
+    "sass": "^1.49.0",
+    "sass-loader": "^12.4.0",
+    "webpack": "^5.67.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.7.3"
+  },
+  "dependencies": {
+    "core-js": "^3.9.0",
+    "favicons-webpack-plugin": "^5.0.2",
+    "regenerator-runtime": "^0.13.9"
+  }
+}

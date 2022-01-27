@@ -1,0 +1,21 @@
+
+$dark: #aaa;
+
+body {
+  background: $dark;
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+#app {
+  width: 100%;
+  height: 100vh;
+}
+#app h1{
+text-align: center;
+}
